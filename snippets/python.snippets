@@ -1,0 +1,12 @@
+snippet pdb
+	import pdb; pdb.set_trace()
+
+snippet crule
+	from CardRules.CardConstants import *
+	from CardRules.BaseCardRule import BaseCardRule
+	 
+	class `Filename()`(BaseCardRule):
+		def __init__(self):
+	        BaseCardRule.__init__(self)
+			self.setName('`Filename()`')
+		    self.types = [${1}]

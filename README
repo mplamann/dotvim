@@ -1,0 +1,11 @@
+Installation:
+
+    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+
+Install vundle bundles (in vim):
+
+    :BundleInstall
