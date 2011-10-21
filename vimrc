@@ -100,3 +100,9 @@ omap <silent> ib <Plug>CamelCaseMotion_ib
 xmap <silent> ib <Plug>CamelCaseMotion_ib
 omap <silent> ie <Plug>CamelCaseMotion_ie
 xmap <silent> ie <Plug>CamelCaseMotion_ie
+
+"The NERD Tree
+map <leader>n :NERDTreeToggle<CR>
+
+"Make it readable
+set background=dark
