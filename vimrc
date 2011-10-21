@@ -106,3 +106,6 @@ map <leader>n :NERDTreeToggle<CR>
 
 "Make it readable
 set background=dark
+
+"Make Command-T work in screen
+map <Esc>[B <Down>
