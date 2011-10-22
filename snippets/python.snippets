@@ -1,6 +1,10 @@
 snippet pdb
 	import pdb; pdb.set_trace()
 
+snippet qtpdb
+	from PyQt4 import QtCore,QtGui,QtOpenGL; QtCore.pyqtRemoveInputHook()
+	import pdb; pdb.set_trace()
+
 snippet crule
 	from CardRules.CardConstants import *
 	from CardRules.BaseCardRule import BaseCardRule
